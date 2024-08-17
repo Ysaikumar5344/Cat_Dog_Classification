@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-with open(r"C:\Users\Y SAI KUMAR\Downloads\Test_data\test_data\dogs\KNneighbor.pkl", 'rb') as file:
+with open(r"KNneighbor.pkl", 'rb') as file:
     model = pickle.load(file)
 
 # Function to preprocess the uploaded image
